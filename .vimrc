@@ -1,6 +1,7 @@
 set tabstop=4
 set expandtab
 set shiftwidth=4
+set colorcolumn=80
 syntax on 
 set number
 set autoindent
@@ -18,6 +19,8 @@ set undodir="$HOME/.vim/undodir
 colorscheme monokai 
 
 let g:airline#extensions#tabline#formatter='unique_tail'
+
+autocmd VimEnter * execute 'NERDTree'
 
 packloadall
 silent!helptags ALL
