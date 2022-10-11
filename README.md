@@ -15,19 +15,15 @@ the dir tree of .vim
 
     <li>
        <ul>
-       <li>- monokai.vim</li>
+           <li>- monokai.vim</li>
        </ul>
     </li>
-    <li>
-    - pack
-    </li>
-    <li>
-    - plugged
-    </li>
-    <li>
-    - underdir
-    </li>
+    <li>- pack</li>
+    <li>- plugged</li>
+    <li>- underdir</li>
 </ul>
 
-plug.vim -> <a href="https://github.com/junegunn/vim-plug">vim-plug</a>
-monokai.vim -> <a href="https://github.com/sickill/vim-monokai">vim-monokai</a>
+<ul>
+    <li>plug.vim -> <a href="https://github.com/junegunn/vim-plug">vim-plug</a></li>
+    <li>monokai.vim -> <a href="https://github.com/sickill/vim-monokai">vim-monokai</a></li>
+</ul>
