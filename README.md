@@ -4,14 +4,14 @@ my set_up files
 
 the dir tree of .vim
 
-.vim 
-     * - autoload
-        * - plug.vim</li>
-    * - color
-        * - monokai.vim
-    * - pack
-    * - plugged
-    * - underdir
+.vim  
+- autoload  
+  - plug.vim  
+- color  
+  - monokai.vim  
+- pack  
+- plugged  
+- underdir  
     
 
 plug.vim -> <https://github.com/junegunn/vim-plug>  
