@@ -54,7 +54,8 @@ call plug#begin()
 Plug 'vim-airline/vim-airline'         " a status line / a tab line
 Plug 'vim-airline/vim-airline-themes'  " a status line / a tab line
 Plug 'preservim/nerdtree'              " a file system explore
-Plug 'preservim/nerdcommenter'
+Plug 'preservim/nerdcommenter'         " a plug-in for code-commenting function
 Plug 'ycm-core/YouCompleteMe'          " a code-completion engine
+Plug 'dense-analysis/ale'              " a plug-in for providing linting
 call plug#end()
 
