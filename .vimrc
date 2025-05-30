@@ -3,11 +3,17 @@ syntax on  " syntax highlight
 set number " line number
 filetype plugin on
 
+" language
+let $LANG='en_US'
+
 " indentation 
 set autoindent   " auto indent"
 set shiftwidth=4 " Shift width -> 4 spaces
 set tabstop=4    " tab ->  4 spaces
 set expandtab    " replace tab to spaces
+
+" backspace
+set backspace=indent,eol,start
 
 " ruler 
 set colorcolumn=80 " a border line. We shouldn't write more per line.
@@ -23,6 +29,9 @@ set foldmethod=syntax
 
 " spelling
 set spell spelllang=en_us
+
+" disable the preview window
+set completeopt-=preview
 
 " search
 set hlsearch   " highlight search results
